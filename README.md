@@ -101,7 +101,7 @@ prometheus-stack-prometheus-node-exporter-zm6c2          1/1     Running   0    
 ````
 
 ````
-💀 ➜ k get pvc -n monitoring
+➜ k get pvc -n monitoring
 NAME                                                                                                     STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 prometheus-prometheus-stack-kube-prom-prometheus-db-prometheus-prometheus-stack-kube-prom-prometheus-0   Bound    pvc-482009c7-effb-412a-9f75-bba378f6e031   100Mi      RWO            nfs-client     65s
 prometheus-stack-grafana                                                                                 Bound    pvc-4e0d30f8-409f-4b6f-ba20-0619472636fa   100Mi      RWO            nfs-client     71s
